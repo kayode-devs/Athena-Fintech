@@ -18,7 +18,8 @@ export default function RootLayout({ children }) {
           <div className="hidden md:block md:w-[25%] lg:w-[17%]">
             <LeftSideBar />
           </div>
-          {children}
+          <div className="w-full h-[95%] mt-6 lg:w-[63%] md:w-[73%] overflow-scroll  px-2 md:px-[3rem]">{children}</div>
+          
           <div className="w-[20%]  hidden lg:block">
             <RightSideBar />
           </div>
